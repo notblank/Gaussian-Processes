@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.12)  19 NOV 2019 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.12)  19 NOV 2019 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,11 +685,19 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 
 ] [5
 
-] [6
+]
+<plots/sample.png, id=146, 752.8125pt x 597.23125pt>
+File: plots/sample.png Graphic file (type png)
+<use plots/sample.png>
+Package pdftex.def Info: plots/sample.png  used on input line 76.
+(pdftex.def)             Requested size: 261.19826pt x 207.22058pt.
+ [6
 
-] [7
+ <./plots/sample.png>] [7
 
 ] [8
+
+] [9
 
 ]
 Package epstopdf Info: Source file: <plots/regularity.eps>
@@ -699,16 +707,16 @@ Package epstopdf Info: Source file: <plots/regularity.eps>
 (epstopdf)                    date: 2019-11-19 10:27:52
 (epstopdf)                    size: 21494 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/regularity-eps-converted-to.pdf plots/regularity.eps>
-(epstopdf)             \includegraphics on input line 135.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<plots/regularity-eps-converted-to.pdf, id=228, 433.62pt x 289.08pt>
+<plots/regularity-eps-converted-to.pdf, id=257, 433.62pt x 289.08pt>
 File: plots/regularity-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/regularity-eps-converted-to.pdf>
-Package pdftex.def Info: plots/regularity-eps-converted-to.pdf  used on input line 135.
+Package pdftex.def Info: plots/regularity-eps-converted-to.pdf  used on input line 146.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
- [9
+ [10
 
- <./plots/regularity-eps-converted-to.pdf>] [10
+ <./plots/regularity-eps-converted-to.pdf>] [11
 
 ]
 Package epstopdf Info: Source file: <plots/multiply.eps>
@@ -718,14 +726,14 @@ Package epstopdf Info: Source file: <plots/multiply.eps>
 (epstopdf)                    date: 2019-11-19 10:27:52
 (epstopdf)                    size: 29869 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/multiply-eps-converted-to.pdf plots/multiply.eps>
-(epstopdf)             \includegraphics on input line 163.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
-<plots/multiply-eps-converted-to.pdf, id=302, 433.62pt x 289.08pt>
+<plots/multiply-eps-converted-to.pdf, id=330, 433.62pt x 289.08pt>
 File: plots/multiply-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/multiply-eps-converted-to.pdf>
-Package pdftex.def Info: plots/multiply-eps-converted-to.pdf  used on input line 163.
+Package pdftex.def Info: plots/multiply-eps-converted-to.pdf  used on input line 174.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
- [11
+ [12
 
  <./plots/multiply-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/sum.eps>
@@ -735,14 +743,14 @@ Package epstopdf Info: Source file: <plots/sum.eps>
 (epstopdf)                    date: 2019-11-19 10:27:53
 (epstopdf)                    size: 25261 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/sum-eps-converted-to.pdf plots/sum.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
-<plots/sum-eps-converted-to.pdf, id=350, 433.62pt x 289.08pt>
+<plots/sum-eps-converted-to.pdf, id=378, 433.62pt x 289.08pt>
 File: plots/sum-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/sum-eps-converted-to.pdf>
-Package pdftex.def Info: plots/sum-eps-converted-to.pdf  used on input line 174.
+Package pdftex.def Info: plots/sum-eps-converted-to.pdf  used on input line 185.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
- [12
+ [13
 
  <./plots/sum-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/parametric_curves.eps>
@@ -752,14 +760,14 @@ Package epstopdf Info: Source file: <plots/parametric_curves.eps>
 (epstopdf)                    date: 2019-11-19 13:49:03
 (epstopdf)                    size: 26915 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/parametric_curves-eps-converted-to.pdf plots/parametric_curves.eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
-<plots/parametric_curves-eps-converted-to.pdf, id=398, 433.62pt x 289.08pt>
+<plots/parametric_curves-eps-converted-to.pdf, id=427, 433.62pt x 289.08pt>
 File: plots/parametric_curves-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/parametric_curves-eps-converted-to.pdf>
-Package pdftex.def Info: plots/parametric_curves-eps-converted-to.pdf  used on input line 184.
+Package pdftex.def Info: plots/parametric_curves-eps-converted-to.pdf  used on input line 195.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
- [13
+ [14
 
  <./plots/parametric_curves-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/vector_fields.eps>
@@ -769,16 +777,16 @@ Package epstopdf Info: Source file: <plots/vector_fields.eps>
 (epstopdf)                    date: 2019-11-19 13:49:49
 (epstopdf)                    size: 54566 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/vector_fields-eps-converted-to.pdf plots/vector_fields.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
-<plots/vector_fields-eps-converted-to.pdf, id=446, 433.62pt x 289.08pt>
+<plots/vector_fields-eps-converted-to.pdf, id=474, 433.62pt x 289.08pt>
 File: plots/vector_fields-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/vector_fields-eps-converted-to.pdf>
-Package pdftex.def Info: plots/vector_fields-eps-converted-to.pdf  used on input line 194.
+Package pdftex.def Info: plots/vector_fields-eps-converted-to.pdf  used on input line 205.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
- [14
+ [15
 
- <./plots/vector_fields-eps-converted-to.pdf>] [15
+ <./plots/vector_fields-eps-converted-to.pdf>] [16
 
 ]
 Package epstopdf Info: Source file: <plots/div_free.eps>
@@ -788,14 +796,14 @@ Package epstopdf Info: Source file: <plots/div_free.eps>
 (epstopdf)                    date: 2019-11-19 14:06:37
 (epstopdf)                    size: 87825 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/div_free-eps-converted-to.pdf plots/div_free.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 237.
 Package epstopdf Info: Output file is already uptodate.
-<plots/div_free-eps-converted-to.pdf, id=521, 433.62pt x 289.08pt>
+<plots/div_free-eps-converted-to.pdf, id=550, 433.62pt x 289.08pt>
 File: plots/div_free-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/div_free-eps-converted-to.pdf>
-Package pdftex.def Info: plots/div_free-eps-converted-to.pdf  used on input line 226.
+Package pdftex.def Info: plots/div_free-eps-converted-to.pdf  used on input line 237.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
- [16
+ [17
 
  <./plots/div_free-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/curl_free.eps>
@@ -805,30 +813,32 @@ Package epstopdf Info: Source file: <plots/curl_free.eps>
 (epstopdf)                    date: 2019-11-19 14:06:38
 (epstopdf)                    size: 87520 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/curl_free-eps-converted-to.pdf plots/curl_free.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
-<plots/curl_free-eps-converted-to.pdf, id=557, 433.62pt x 289.08pt>
+<plots/curl_free-eps-converted-to.pdf, id=585, 433.62pt x 289.08pt>
 File: plots/curl_free-eps-converted-to.pdf Graphic file (type pdf)
 <use plots/curl_free-eps-converted-to.pdf>
-Package pdftex.def Info: plots/curl_free-eps-converted-to.pdf  used on input line 236.
+Package pdftex.def Info: plots/curl_free-eps-converted-to.pdf  used on input line 247.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
- [17
+ [18
 
- <./plots/curl_free-eps-converted-to.pdf>] [18
+ <./plots/curl_free-eps-converted-to.pdf>] [19
 
 ]
-<plots/Sub-proyectos.pdf, id=617, 1027.84pt x 770.88pt>
+<plots/Sub-proyectos.pdf, id=646, 1027.84pt x 770.88pt>
 File: plots/Sub-proyectos.pdf Graphic file (type pdf)
 <use plots/Sub-proyectos.pdf>
-Package pdftex.def Info: plots/Sub-proyectos.pdf  used on input line 261.
+Package pdftex.def Info: plots/Sub-proyectos.pdf  used on input line 272.
 (pdftex.def)             Requested size: 307.28987pt x 230.46593pt.
 
-Overfull \vbox (8.92198pt too high) detected at line 261
+Overfull \vbox (8.92198pt too high) detected at line 272
  []
 
-[19
+[20
 
- <./plots/Sub-proyectos.pdf>] [20
+ <./plots/Sub-proyectos.pdf>] [21
+
+] [22
 
 ]
 \tf@nav=\write6
@@ -840,27 +850,27 @@ Overfull \vbox (8.92198pt too high) detected at line 261
 \tf@snm=\write8
 \openout8 = `beamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
  (./beamer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
 Package rerunfilecheck Info: File `beamer.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17195 strings out of 492616
- 328721 string characters out of 6129480
+ 17211 strings out of 492616
+ 328914 string characters out of 6129480
  403415 words of memory out of 5000000
- 20688 multiletter control sequences out of 15000+600000
- 15948 words of font info for 58 fonts, out of 8000000 for 9000
+ 20697 multiletter control sequences out of 15000+600000
+ 16304 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,55p,773b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on beamer.pdf (20 pages, 462468 bytes).
+Output written on beamer.pdf (22 pages, 1658396 bytes).
 PDF statistics:
- 724 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 42 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 781 PDF objects out of 1000 (max. 8388607)
+ 624 compressed objects within 7 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

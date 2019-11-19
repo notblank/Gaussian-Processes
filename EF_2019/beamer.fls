@@ -307,6 +307,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT plots/sample.png
+INPUT ./plots/sample.png
+INPUT ./plots/sample.png
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
@@ -378,6 +381,7 @@ INPUT ./plots/curl_free-eps-converted-to.pdf
 INPUT plots/Sub-proyectos.pdf
 INPUT ./plots/Sub-proyectos.pdf
 INPUT ./plots/Sub-proyectos.pdf
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 OUTPUT beamer.nav
 OUTPUT beamer.toc
 OUTPUT beamer.snm

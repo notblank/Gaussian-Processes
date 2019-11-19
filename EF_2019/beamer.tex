@@ -2,7 +2,7 @@
 
 \usetheme{default}
 \title{A Distribution For Magnetic Fields}
-\author{Federico Zertuche, CENBIO, UTE}
+\author{Federico Zertuche, CENBIO, UTE.}
 \date{\today}
 
 \begin{document}
@@ -60,7 +60,7 @@ The team:
   \vspace{1em}
   \textbf{Need: Probaility distribution over magnetic fileds.}
 
-  (Herr W.: For magnetic fields with compact support, sometimes symmetric and div-free! And... depending on the day turbelent too.)
+  (Herr W.: For magnetic fields with compact support, sometimes symmetric and div-free! And, depending on the day, turbelent too.)
 
 \end{frame}
 
@@ -76,26 +76,57 @@ The team:
 
   For any $\mathbf{x} := [x_1, ... , x_n]^T$,
 
-  \begin{equation*}
-    f(\mathbf{x}) \sim
+  \begin{align*}
+    \mathbf{f(x)} &\sim
     \mathbf{N}
     \left(
-    \begin{bmatrix} 0 \\ \vdots \\ 0 \end{bmatrix},
+    \begin{bmatrix} 0 \\ \vdots \\ 0 \end{bmatrix}, \
     \begin{bmatrix}
       k(x_1, x_1) \cdots  k(x_1, x_n)\\
       \ddots \\
       k(x_n, x_1) \cdots  k(x_n, x_n)
     \end{bmatrix}
     \right)
-  \end{equation*}
+  \end{align*}
 
-  where $f(\mathbf{x}) := [f(x_1), ... , f(x_n)]^T$.
+  where $\mathbf{f(x)} := [f(x_1), ... , f(x_n)]^T$.
 
 \end{frame}
 
+
 \begin{frame}{A Distribution For Magnetic Fields}
 
-  \textbf{Which function space?} You get choose by chossing the covariance function $k$.
+  \textbf{What does that mean?} To simulate:
+
+  \begin{enumerate}
+    \setlength\itemsep{1em}
+    \item Choose a vector space - a covariance function $k$.
+    \item Fix a set of input points $\mathbf{x} := [x_1, ... , x_n]^T$.
+    \item To simulate $\mathbf{f(x)}$, build the covariance matrix $\mathbf{K(x, x)}$, draw from $\mathbf{N\left(0, \ K(x, x)\right)}$.
+    \vspace{1em}
+    \begin{itemize}
+      \item[] where $\mathbf{K(x, x)}[i, j] = k(x_i, x_j).$
+    \end{itemize}
+  \end{enumerate}
+
+\end{frame}
+
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{Different covariance functions, different function spaces.}
+
+  \vspace{1em}
+
+  \textbf{Which function space?} You get choose by chossing/building the covariance function $k$.
+
+\end{frame}
+
+
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{Which function space?} Regularity depends on $k$.
 
   \begin{figure}
     \includegraphics[width=\linewidth]{plots/regularity.eps}
@@ -103,9 +134,27 @@ The team:
 
 \end{frame}
 
+
 \begin{frame}{A Distribution For Magnetic Fields}
 
-  \textbf{Algebra of Kernels} Can combine kernels to encode other characteristics: $k_1 \times k_2$
+  \textbf{Algebra of covariance functions} Can combine covariance functions to encode other characteristics:
+
+  \vspace{1em}
+
+  \begin{itemize}
+    \setlength\itemsep{1em}
+    \item[$\cdot$] $\alpha k$ is a covariance function.
+    \item[$\cdot$] $k(\phi(x),\ \phi(x'))$ is a covariance function.
+    \item[$\cdot$] $k_1 \times k_2$ is a covariance function - like an AND covariance function, high vals if both are.
+    \item[$\cdot$] $k_1 + k_2$ is a covariance function - like an OR covariance function, high vals if one is.
+  \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{Algebra of covariance functions} Can combine covariance functions to encode other characteristics: $k_1 \times k_2$
 
   \begin{figure}
     \includegraphics[width=\linewidth]{plots/multiply.eps}
@@ -113,15 +162,37 @@ The team:
 
 \end{frame}
 
+
 \begin{frame}{A Distribution For Magnetic Fields}
 
-  \textbf{Algebra of Kernels} Can combine kernels to encode other characteristics: $k_1 + k_2$
+  \textbf{Algebra of covariance functions} Can combine covariance functions to encode other characteristics: $k_1 + k_2$
 
   \begin{figure}
     \includegraphics[width=\linewidth]{plots/sum.eps}
   \end{figure}
 
 \end{frame}
+
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{A process $R \rightarrow R^2$} Is a distribution over doodles.
+  \begin{figure}
+    \includegraphics[width=\linewidth]{plots/parametric_curves.eps}
+  \end{figure}
+
+\end{frame}
+
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{A process $R^2 \rightarrow R^2$} Is a distribution over vector fields.
+  \begin{figure}
+    \includegraphics[width=\linewidth]{plots/vector_fields.eps}
+  \end{figure}
+
+\end{frame}
+
 
 \begin{frame}{A Distribution For Magnetic Fields}
 
@@ -162,6 +233,43 @@ The team:
     \includegraphics[width=\linewidth]{plots/curl_free.eps}
   \end{figure}
 
+\end{frame}
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{So far:}
+  \begin{itemize}
+    \item[$\cdot$] Distributions over function spaces.
+    \item[$\cdot$] Mathematically Expressive: Can encode regularity, symmetries, changes, support.
+  \end{itemize}
+
+  \textbf{In progress:}
+  \begin{itemize}
+    \item[$\cdot$] Computationally NOT Expressive: Autodiff code in progress.
+    \item[$\cdot$] Turbulence NOT clear: Studying the relationship between kernels and energy spectral decay.
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{A bigger picture:}
+  \begin{figure}
+    \includegraphics[width=\linewidth]{plots/Sub-proyectos.pdf}
+  \end{figure}
+
+\end{frame}
+
+\begin{frame}{A Distribution For Magnetic Fields}
+
+  \textbf{A bigger picture:} (In alphabetical order)
+
+  \vspace{1em}
+
+  \begin{itemize}
+    \item[$\cdot$] Computer Science, Math, Physics.
+    \item[$\cdot$] Australia, Ecuador, Germany.
+  \end{itemize}
 \end{frame}
 
 \end{document}
